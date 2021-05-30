@@ -1,3 +1,8 @@
+#Description
+
+CRUD operation on files using python.
+File named `data.txt` will act as database for this program.
+
 # **CRUD**
 
 create, read, update, and delete (CRUD) are the four basic operations of persistent storage. Alternate words are sometimes used when defining the four basic operations of CRUD, such as construct instead of create, retrieve instead of read, or destroy or destruct instead of delete.
@@ -12,7 +17,6 @@ create, read, update, and delete (CRUD) are the four basic operations of persist
 
 Most applications have some form of CRUD functionality. In fact, every programmer has had to deal with CRUD at some point. Not to mention, a CRUD application is one that utilizes forms to retrieve and return data from a database.
 
-File named `data.txt` will act as database for this program.
 
 # **File Handling**
 
