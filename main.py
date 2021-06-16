@@ -34,13 +34,13 @@ while x != 5:
         flag=0
         f=open("data.txt",'r')
         for lines in data:
-            if b in lines:
+            if a in lines:
                 flag=1
                 break
         f.close()
         if flag==1:                             #if flag is 1 the item is already in the file.
             print("\nId already exist")
-            time.sleep(1)
+            getch()
         if flag==0:                             # if flag is 0 the item is not already present in file and can write to the file
             f=open("data.txt",'a')
             f.write(a)
@@ -101,7 +101,7 @@ while x != 5:
                 break
         if flag==0:
             print("\n Id "+s+" not found\n")
-            time.sleep(1)
+            getch()
         if flag == 1 :
     #copying
             f=open('data.txt','r')
